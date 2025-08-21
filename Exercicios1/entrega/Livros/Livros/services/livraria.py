@@ -11,12 +11,12 @@ class Livraria:
             if escolha == 1:
                 termo = input("Digite o título do livro: ")
                 for livro in self.lista_livros:
-                    if livro.getNome().lower() == termo.lower():
+                    if livro.get_nome().lower() == termo.lower():
                         return livro
             elif escolha == 2:
                 termo = input("Digite o ISBN do livro: ")
                 for livro in self.lista_livros:
-                    if livro.getIsbn() == termo:
+                    if livro.get_isbn() == termo:
                         return livro
             else:
                 print("Opção inválida.")

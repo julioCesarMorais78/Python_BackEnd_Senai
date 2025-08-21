@@ -2,7 +2,7 @@ import random
 
 def jogo_tabuada():
     print("🎯 Bem-vindo ao jogo da tabuada!")
-    print("Responda corretamente às operações. Digite 'sair' para encerrar.\n")
+    print("Responda corretamente às operações.\nDigite 'sair' para encerrar e receber a pontuação.\n")
 
     acertos = 0
     erros = 0
